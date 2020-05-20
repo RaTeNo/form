@@ -1,0 +1,7 @@
+@media (max-width: 1023px)
+{	
+	.new_site .content {
+	    background: #fff;
+	    width: calc(100% - 30px);
+	}
+}

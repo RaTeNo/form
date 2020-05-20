@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- Переключение IE в последнию версию, на случай если в настройках пользователя стоит меньшая -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.png">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#6AB12F">
+		<meta name="theme-color" content="#6AB12F">
+
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1209.css" media="(max-width: 1209px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="(max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="(max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+		<link rel="stylesheet" href="css/dropify.css">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<form class="new_site">
+				<div class="content">
+					<div class="statusbar"></div>
+
+					<div class="tabs">
+						
+						<div class="tab" id="tab_1">
+							<div class="title">Создание нового сайта:</div>
+							<div class="line">
+								<div class="field">
+									<label>Логин партнера:</label>
+									<input type="text" class="validate" name="">
+								</div>
+								<div class="field">
+									<label>Имя клиента:</label>
+									<input type="text" name="">
+								</div>
+							</div>
+							<div class="line">
+								<div class="field">
+									<label>Название компании:</label>
+									<input type="text" name="">
+								</div>
+								<div class="field">
+									<label>Сфера деятельности:</label>
+									<input type="text" name="">
+								</div>
+							</div>
+						</div>
+						<div class="tab" id="tab_2">
+							<div class="title">Контакты для сайта:</div>
+							<div class="line">
+								<div class="field">
+									<label>Телефон:</label>
+									<input type="text" class="validate" name="">
+									
+								</div>
+								<div class="field">
+									<label>E-mail:</label>
+									<input type="text" class="validate"  name="">
+									
+								</div>
+							</div>
+							<div class="line">
+								<div class="field">
+									<label>Адрес на карту:  <span>*</span></label>
+									<input type="text" class="validate"  name="">
+						
+								</div>								
+							</div>
+						</div>
+						
+						<div class="tab" id="tab_3">
+							<div class="title">Социальные сети:</div>
+							<div class="line">
+								<div class="field">
+									<label>Whatsapp:</label>
+									<input type="text" name="">
+								</div>
+								<div class="field">
+									<label>Viber:</label>
+									<input type="text" name="">									
+								</div>
+							</div>
+							<div class="line">
+								<div class="field">
+									<label>Вконтакте:</label>
+									<input type="text" name="">
+								</div>
+								<div class="field">
+									<label>Инстаграмм:</label>
+									<input type="text" name="">									
+								</div>
+							</div>
+							<div class="line">
+								<div class="field">
+									<label>Facebook:</label>
+									<input type="text" name="">
+								</div>
+							</div>
+						</div>
+					
+						<div class="tab" id="tab_4">
+							<div class="title">Услуги:</div>
+							<div class="line list_services">
+								<div class="field">
+									<label>Услуга 1:</label>
+									<div class="close">х</div>
+									<input type="text" name="">									
+								</div>								
+							</div>	
+							<a href="" class="add_services">Добавить услугу</a>						
+						</div>
+						
+						<div class="tab" id="tab_5">
+							<div class="title">Услуги:</div>
+							<div class="line">
+								<input type="file" class="dropify"/>
+								<input type="file" class="dropify2"/>
+							</div>	
+						
+							<div class="line">
+								<input type="file" class="dropify3"/>
+								<input type="file" class="dropify4"/>
+							</div>	
+						
+							<div class="line">
+								<input type="file" class="dropify5"/>
+								<input type="file" class="dropify6"/>
+							</div>	
+						
+							<div class="line">
+								<input type="file" class="dropify7"/>
+								<input type="file" class="dropify8"/>
+							</div>				
+						</div>
+					
+						<div class="tab" id="tab_6">
+							<div class="title">Страницы и блоки:</div>
+							<div class="line">
+								<div class="page">
+									<label class="container">Главная
+									    <input type="checkbox" checked="checked">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Шапка
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Услуги
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Преимущества
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Меседжеры
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Карта
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+								</div>
+						
+								<div class="page">
+									<label class="container">О нас
+									    <input type="checkbox" checked="checked">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Шапка
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Услуги
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+								</div>
+						
+								<div class="page">
+									<label class="container">Отзывы
+									    <input type="checkbox" checked="checked">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Шапка
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Шапка
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Услуги
+									    <input type="checkbox" checked="checked">
+									    <span class="checkmark"></span>
+									</label>
+								</div>
+							</div>	
+							<div class="line">
+								<div class="page">
+									<label class="container">Главная
+									    <input type="checkbox" checked="checked">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Шапка
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Услуги
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Преимущества
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Меседжеры
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Карта
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+								</div>
+						
+								<div class="page">
+									<label class="container">О нас
+									    <input type="checkbox" checked="checked">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Шапка
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Услуги
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+								</div>
+						
+								<div class="page">
+									<label class="container">Отзывы
+									    <input type="checkbox" checked="checked">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Шапка
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Шапка
+									    <input type="checkbox">
+									    <span class="checkmark"></span>
+									</label>
+						
+									<label class="container">Услуги
+									    <input type="checkbox" checked="checked">
+									    <span class="checkmark"></span>
+									</label>
+								</div>
+							</div>			
+						</div>
+						
+						
+						<div class="tab" id="tab_7">
+							<div class="title">Данные клиента:</div>
+							<div class="sub_title">Сайт создан:</div>
+							<div class="info">
+								<p>Логин: <b>77777777777</b></p>
+								<p>Пароль: <b>77777777777</b></p>
+								<p>Админка: <a href="">https://www.w3schools.com/</a></p>
+								<p>Тестовый домен: <a href="">https://www.w3schools.com/</a></p>
+							</div>
+
+							<div class="warning">									
+								Не забудьте сохранить данные!<br>
+								Восстановление невозможно, пароль хранится только 
+								в зашифрованном виде!
+							</div>
+						</div>
+						
+						<div class="navigator">
+							<button class="prev">Назад</button>
+							<button class="next">Далее</button>
+						</div>
+
+					</div>
+				</div>
+			</form>
+			<div class="copy">© Портал.рф, 2020 <a href="">Политика конфиденциальности</a> <a href="">Условия предоставления услуг</a></div>
+		</div>
+
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/jquery-migrate-1.4.1.min.js"></script>
+		<script src="js/dropify.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+
+	</body>
+</html>

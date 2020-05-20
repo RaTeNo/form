@@ -1,0 +1,58 @@
+@media (max-width: 767px)
+{
+	.new_site{
+		margin-top:20px;
+
+	}
+
+	.title{
+		margin-bottom:20px;
+	}
+
+	.new_site .content{
+		padding:20px;
+		    min-height: auto;
+	}
+
+	.statusbar{
+		display: none;
+	}
+	.tabs{
+		margin: 0;
+		width: 100%;
+	}
+	.line {   	
+	    margin-bottom: 0px;
+	    flex-direction: column;
+	}
+	.field + .field {
+	    margin-left: 0px;
+	}
+	.field input{
+		width: 100%;
+	}
+	.tab{
+		    margin-bottom: 20px;
+	}
+	.field div.error {
+	    margin-top: 4px;
+	    background-color: #fff;
+	    padding: 4px;
+	}
+
+	.prev{
+		width: 46%;
+	}
+	.next{
+		width: 47%;
+	}
+	.list_services{
+		width: 100%;
+	}
+
+	.line .page{
+		width:100%;
+		    margin-bottom: 20px;
+	}
+
+}
