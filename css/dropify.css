@@ -663,9 +663,6 @@
   cursor: pointer;
 }
 
-#tab_5 .dropify3, #tab_5 .dropify4, #tab_5 .dropify5, #tab_5 .dropify6, #tab_5 .dropify7, #tab_5 .dropify8{
-  display: none;
-}
 
 @media (max-width: 767px)
 {
@@ -677,3 +674,5 @@
     margin-left:0;
   }
 }
+.dropify-wrapper.error_code{
+    border: dashed 2px red;}
