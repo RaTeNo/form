@@ -328,7 +328,7 @@ body.lock
 
     position: absolute;
 
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .field input
@@ -409,7 +409,7 @@ body.lock
 {
     position: relative;
 
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 .list_services .field .close
 {
@@ -417,7 +417,7 @@ body.lock
 
     position: absolute;
     right: 10px;
-    bottom: 12px;
+    top: 40px;
 
     cursor: pointer;
 }
