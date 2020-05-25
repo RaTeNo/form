@@ -157,23 +157,21 @@ body.lock
 .new_site
 {
     display: flex;
-
-    margin-top: 115px;
-
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 .new_site .content
 {
     display: flex;
 
-    width: 1008px;
+    width: 770px;
     min-height: 575px;
     padding: 60px;
 
     border-radius: 20px;
-    background: #fff url(../images/img.png) no-repeat right top;
+    background: #fff;
     box-shadow: 0 13px 54px 0 rgba(0, 0, 0, .44);
 }
 

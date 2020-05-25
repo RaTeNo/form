@@ -1,7 +1,8 @@
 @media (max-width: 767px)
 {
 	.new_site{
-		margin-top:20px;
+		padding-top:20px;
+		height: auto;
 
 	}
 
